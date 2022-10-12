@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFIR'S BARBERSHOP - האתר הרישמי</title>
+    <link rel="icon" href="./Images/name2 (1).ico">
+    <link rel="stylesheet" href="index.css">
+    <!-- ========================= google font start ============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kaushan+Script&display=swap" rel="stylesheet"> 
+    <!-- ========================= google font end   ============================== -->
+    <!-- ========================= font awesome start   ============================== -->
+    <script src="https://use.fontawesome.com/60b899038b.js"></script>
+    <!-- ========================= font awesome end   ============================== -->
+
+</head>
+<body>
+    <!-- ============= the start of nav bar section ========================== -->
+    <header class="navBar" id="navBar" >
+        <div class=" navBar content">
+            <input onclick="changeBackgroundColor()" class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+            <ul>
+                <div class="navBar HiddenInTabletAndMobile menu-Items">
+                    <li id="userIconListItem" class="textListItem "><div id="userIconDiv" class="textDiv"><a class="text" href=""><img  id="userIcon" src="./Images/account icon/userIcon.png" alt=""></a></div></li>
+                </div>
+                <div class="navBar HiddenInTabletAndMobile menu-Items">
+                    <li class="textListItem"><div class="textDiv"><a class="text" href="">הזמנת תור</a></div></li>
+                    <li class="textListItem"><div class="textDiv"><a class="text" href="">דרושים</a></div></li>
+                    <li class="textListItem"><div class="textDiv"><a class="text" href="">הצוות שלנו</a></div></li>
+                    <li class="textListItem"><div class="textDiv"><a class="text" href="">איך מגיעים</a></div></li>
+                    <li class="textListItem"><div class="textDiv"><a class="text" href="">תפריט מחירים</a></div></li>
+                    <li class="textListItem"><div class="textDiv"><a class="text" href="">יצירת קשר</a></div></li>
+                    <li class="textListItem"><div id="lastTextDiv"class="textDiv"><a class="text" href="">מוצרים</a></div></li> 
+                </div>
+            </ul>
+        <div class="navBar z" id="navBarLeftDiv" >
+            <li class="noPaddingTop textListItem"><a href=""><img id="mainIcon" src="./Images/name3.png" alt="main icon"></a></li>
+        </div>
+            </div>
+        </div>
+    </header>
+     <!-- ============= the end of nav bar section ========================== -->
+      <!-- ============= the start of entry section ========================== -->
+    <div id="entry" >
+        <div id="firstEntryDiv"><img src="./Images/entryImage.png" alt="entryImage"></div>
+        <div id="secondEntryDiv">
+            <div class="secondEntryDivFirstTextSection"><span id="entryTitle" class="entryText">OFIR'S Barbershop</span></div>
+            <div class="centerEntryText topAndBotPadding"><span class="entryText topAndBotPadding">גבר ? מגיע לך יותר !!! מוזמן להגיע למספרה שלנו , ונקלע בול לטעם שלך 😎 . על איכות השירות לא מתפשרים , במספרה חדשה בקרית ביאליק ששינתה את כל חוקי המשחק תקבל את המוצר ברמה הגבוהה ביותר במחיר האטרקטיבי והנגיש ביותר באיזור!</span></div>
+        </div>
+        <div >
+            <div class="text2">
+                <p class="entryText"> מה תוכלו למצוא אצלנו </p><span class="entryText"> : </span>
+                <br>
+                <p>
+                    <div class="centerChangingText">
+                        <span class="entryText word wisteria">תספורת מלאה</span>
+                        <span class="entryText word belize">סידור זקן</span>
+                        <span class="entryText word pomegranate">תספורת גזירות</span>
+                        <span class="entryText word green">צבע וגוונים לשיער</span>
+                        <span class="entryText word midnight">מוצרים לטיפוח השיער</span>
+                    </div>
+                </p>
+              </div>
+        </div>
+        <div>
+            <div class="orderButton">
+                <div class="container">
+                    <a href="" class="button effect01" target="_blank"><span>לחץ לקביעת תור</span></a>
+                </div>
+              </div>
+        </div>
+    </div>
+     <!-- ============= the end of entry section ========================== -->
+      <!-- ============= the start of menu section ========================== -->
+      <div id="menu">
+        <div class="menuTitleBorder"><h1 class="menuTitle">מחירון</h1></div>
+        <div class="menuCollum">
+            <div class="menuContent">
+                <div>
+                    <img class="menuShekelIconImage" src="./Images/WhiteShekel.png" alt="ShekelAmount">
+                    <span class="menuShekelValue">60</span>
+                </div>
+                 <div><h2 class="menuContentTitle">תספורת מלאה</h2></div>
+                 <div class="menuLimitToContentExplained"><p class="menuContentExplained">תספורת מלאה לגבר , משמעותה תספורת בעזרת מכונה חשמלית עם נגיעות של מספריים בחלקים מסויימים.</p></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained menuBeforeLastContent">תספורת מלאה מתאימה לך במידה ורצוי תספורת באורך קצר</p></div>
+            </div>
+            <div class="menuContent">
+                <div>
+                    <img class="menuShekelIconImage" src="./Images/WhiteShekel.png" alt="ShekelAmount">
+                    <span class="menuShekelValue">100</span>
+                </div>
+                <div><h2 class="menuContentTitle" >תספורת גזירות</h2></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained">תספורת גזירות לגבר , משמעותה תספורת לעיצוב השיער עם מספריים בלבד.</p></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained menuLastContent">תספורת גזירות מתאימה לך במידה ורצוי תספורת באורך בינוני עד ארוך</p></div>
+            </div>
+        </div>
+        <div class="menuCollum">
+            <div class="menuContent">
+                <div>
+                    <img class="menuShekelIconImage" src="./Images/WhiteShekel.png" alt="ShekelAmount">
+                    <span class="menuShekelValue">30</span>
+                </div>
+                <div><h2 class="menuContentTitle" >סידור זקן</h2></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained">  סידור זקן לגבר , משמעותה סידור הזקן ועיצובו על ידי מכונה מתאימה ופינישים בעזרת סכין הגילוח חשוב להגיד כי סידור זקן זה לכלל הפנים ולא רק זקן.</p></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained menuBeforeLastContent">סידור זקן לגבר מתאימה לך במידה ורצוי עיצוב בשיער הפנים.</p></div>
+            </div>
+            <div class="menuContent">
+                <div>
+                    <img class="menuShekelIconImage" src="./Images/WhiteShekel.png" alt="ShekelAmount">
+                    <span class="menuShekelValue">200</span>
+                </div>
+                <div><h2 class="menuContentTitle" >צבע/גוונים</h2></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained">צבע וגוונים לגבר , משמעותה היא הזמנת צבע רצוי וישומו על השיער ,אינו כולל תספורת.</p></div>
+                <div class="menuLimitToContentExplained"><p class="menuContentExplained menuLastContent">צבע וגוונים לגבר מתאימה לך במידה ורצוי שינוי הצבע / הגוון הנוכחי לצבע / גוון אחר.</p></div>
+            </div>
+        </div>
+      </div>
+       <!-- ============= the end of menu section ========================== -->
+       <!-- ========================= the start of products section ===================================== -->
+       <div id="products">
+        <div id="productsTitleBorder"><h1 id="productsTitle">מוצרים</h1></div>
+            <div id="productsItemsAndButtonsSection">
+                <div class="yellow1">
+                    <div class="arrowButtonDiv">
+                        <button class="arrowButton" onclick="nextItem()">
+                            <img class="arrow" src="./Images/BlackRightArrow.png" alt="RightArrow">
+                        </button>
+                    </div>
+                </div>
+                <div class="red1">
+                    <div id="productsItemsContent">
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product1.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >20</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product2.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >15</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product3.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >60</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product4.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >75</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product5.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >100</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product6.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >15</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product7.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >90</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product8.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >6</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product9.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >15</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        <a class="productItem" href="">
+                            <div class="productBox">
+                                 <div class="allExcepthiddenBuyNow" >
+                                <img class="productsImage" src="./Images/products/product10.png" alt="productsImage">
+                                 </div>
+                                 <div class="productsTitle allExcepthiddenBuyNow">
+                                <span class="productsTitleText">אמריקן קרוו ווקס</span>
+                                <br>
+                                <br>
+                                <span class="productsDescriptionText">ווקס חזק מחברת אמריקן קרוו נותנת לשיער מראה נוצץ ואחיד.</span>
+                                </div>
+                                <div class="productsCost allExcepthiddenBuyNow">
+                                <img class="menuShekelIconImage" src="./Images/BlackShekel.png" alt="ShekelAmount">
+                                <span class="menuShekelValue" >63</span>
+                                </div>
+                                <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="yellow1">
+                    <div class="arrowButtonDiv">
+                        <button class="arrowButton" onclick="prevItem()">
+                            <img class="arrow" src="./Images/BlackLeftArrow.png" alt="LeftArrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- ========================= the end of products section ======================================= -->
+       <!-- ========================= the start of collection of hairstyles section ======================================= -->
+       <div id="hairstyles">
+        <div id="hairstylesTitleBorder"><h1 id="hairstylesTitle">תצוגת תספורות</h1></div>
+            <div id="hairstylesItemsAndButtonsSection">
+                <div class="yellow1"> 
+                    <div class="arrowButtonDiv">
+                        <button class="arrowButton WhiteArrowButton" onclick="nextHairstyle()">
+                            <img class="arrow" src="./Images/WhiteRightArrow.png" alt="RightArrow">
+                        </button>
+                    </div>
+                </div>
+                <div class="red1">
+                    <div id="hairstylesItemsContent">
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles1.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage2.jpg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles2.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles3.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage2.jpg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles4.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles5.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage2.jpg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles6.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles7.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage2.jpg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles8.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles9.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles10.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage2.jpg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles11.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles12.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage2.jpg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles13.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                        <a class="hairstylesItem" href="">
+                            <div class="hairstylesBox">
+                                 <div>
+                                <img class="hairstylesImage hairstylesAllImages" src="./Images/hairstyles/hairstyles14.jpg" alt="hairstylesImage">
+                                 </div>
+                                <div class="currBarberBox">
+                                <img class="currBarber hairstylesAllImages" src="./Images/hairstyleCircleFaceImage.jpeg" alt="thebarber">
+                                </div>
+                                <!-- <div class="hiddenBuyNow"><span >לקניה לחץ כאן</span></div> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="yellow1">
+                    <div class="arrowButtonDiv">
+                        <button class="arrowButton WhiteArrowButton" onclick="prevHairstyle()">
+                            <img class="arrow" src="./Images/WhiteLeftArrow.png" alt="LeftArrow">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================= the end of collection of hairstyles section ======================================= -->
+        <!-- ========================= the start of location section ======================================= -->
+        <div class="theWholeSection">
+            <div class="firstHalfOfTheSection secondInOrder">
+                <div class="locationBox">
+                    <iframe class="locationGoogleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3352.655273597178!2d35.08979632017498!3d32.82789778104992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151db6de1cbb9aa3%3A0x62d09013fbc10bb4!2z16nXk9eo15XXqiDXkdefINeS15XXqNeZ15XXnyA2LCDXp9eo15nXmdeqINeR15nXkNec15nXpw!5e0!3m2!1siw!2sil!4v1658423283897!5m2!1siw!2sil" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <a class="locationButton" href="">לחץ ליצירת קשר</a>
+                <a class="locationButton locationButton2" href="">לחץ לניווט ב <span>waze</span></a>
+            </div>
+            <div class="secondHalfOfTheSection firstInOrder">
+                <div class="locationImageSection">
+                    <img class="barberPoleImage" src="/Images/location/barberPole2.png" alt="barberPoleImage">
+                </div>
+                <div class="locationContent">
+                    <div class="locationContentLogo"><img class="locationImage" src="/Images/location/locationIcon2.png" alt=""></div>
+                    <div class="locationContentText"><p class="locationText">בואו להסתפר אצלנו!<br> פה תמצאו את האיכות הכי טובה בצפון.<br>בלי להתפשר על הלקוח,האסתטיקה ורצונו של הלקוח. במחיר הכי טוב שאפשר לקבל!!!<br><br> אותנו תוכלו למצוא בקרית ביאליק, בן גוריון 6</p></div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================= the end of location section ======================================= -->
+        <!-- ========================= the start of schedule section ======================================= -->
+        <div class="theWholeSection schedule">
+            <div class="secondHalfOfTheSection firstInOrder scheduleNeedBiggerBox">
+                <div class="locationImageSection scheduleImageSection">
+                    <img class="barberPoleImage scheduleScissorsImage" src="/Images/schedule/Maybe2.png" alt="barberPoleImage">
+                </div>
+                <div class="scheduleContent">
+                    <div class="locationContentLogo scheduleContentLogoBox"><img class="locationImage scheduleContentLogo" src="/Images/schedule/WhiteClock4.png" alt="clockIcon"></div>
+                    <div class="locationContentText"><p class="locationText">מספרה בניהולו של מעצב השיער המוביל דוד דוידוביץ, המציעה מגוון רחב של תסרוקות </p></div>
+                </div>
+            </div>
+            <div class="firstHalfOfTheSection secondInOrder">
+                <div class="locationBox scheduleBox">
+                    <img class="scheduleBackgroundImage"src="./Images/schedule/Background2.jpg" alt="">
+                </div>
+                <div class="scheduleTextBox">
+                    <div class="scheduleBackgroudClockImageBox"><img class="scheduleBackgroudClockImage" src="./Images/schedule/WhiteClock2.png" alt="clockIcon"></div>
+                    <div class="scheduleHeadTextBox"><h2 class="scheduleHeadText">שעות פתיחה</h2></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום ראשון</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">10:00-21:00</span></p></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום שני</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">10:00-21:00</span></p></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום שלישי</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">10:00-21:00</span></p></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום רביעי</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">10:00-21:00</span></p></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום חמישי</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">10:00-21:00</span></p></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום שישי</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">08:00-14:00</span></p></div>
+                    <div><p class="scheduleText allScheduleText"><span class="scheduleText scheduleTextBoxSize">יום שבת</span><span>&nbsp;</span><span>&nbsp;</span><span class="scheduleText scheduleTextBoxSize">סגור</span></p></div>
+                </div>
+            </div>
+        </div>
+        <!-- ========================= the end of schedule section ========================================= -->
+        <!-- ========================= the start of socialmedia section ========================================= -->
+        <div id="socialMedia">
+            <div class="endingPhraseBox">
+                <p class="endingPhraseText">"All about quality"</p>
+            </div>
+            <div class="socialMediaButtonsBox">
+                <div class="socialMediaAllDiv">
+                    <div class="socialMediaDiv">
+                        <a class="facebook" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                          </a>
+                    </div>
+                    <div class="socialMediaDiv">
+                        <a class="twitter" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                          </a>
+                    </div>
+                    <div class="socialMediaDiv">
+                        <a class="instagram" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                          </a>
+                    </div>
+                    <div class="socialMediaDiv">
+                        <a class="google" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                          </a>
+                    </div>
+              </div>
+        </div>
+        <!-- ========================= the end of socialmedia section ========================================= -->
+    <script src="index.js"></script>
+</body>
+</html>
